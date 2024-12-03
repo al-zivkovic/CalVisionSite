@@ -8,12 +8,13 @@ export default {
     extend: {
       colors: {
         primary: '#121212',
-        'primary-variant': '#212121', 
+        'primary-variant': '#212121',
         secondary: '#fff', // Example secondary color
         tertiary: '#10D29A',
+        feature: '#000',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'], // Example custom font
+        parkinsans: ['ParkinSans', 'sans-serif'],
       },
     },
   },

@@ -8,15 +8,17 @@ import TermsOfService from './pages/TermsOfService';
 const App = () => {
   return (
     <Router>
-      <div className="relative w-full z-0 bg-primary min-h-screen">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/terms-of-service" element={<TermsOfService />} />
-        </Routes>
-        <Footer />
+      <div className="relative z-0 bg-primary min-h-screen flex flex-col items-center">
+        <div className="w-full max-w-7xl px-4 flex-grow"> {/* Center the content */}
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Hero />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-of-service" element={<TermsOfService />} />
+          </Routes>
+        </div>
       </div>
+      <Footer />
     </Router>
   );
 };
