@@ -30,11 +30,11 @@ const Navbar = () => {
         Cal<b className="text-tertiary">Vision</b>
       </Link>
 
-      <div>
+      <a href="target:blank">
         <button className="bg-secondary text-primary font-bold px-6 py-2 rounded-md hover:bg-tertiary transition duration-200">
           Download
         </button>
-      </div>
+      </a>
     </nav>
   );
 };

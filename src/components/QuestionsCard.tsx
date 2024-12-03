@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
-const FeatureCard = ({ title, description, image }) => {
+const QuestionsCard = ({ title, description, image }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleExpand = () => {
@@ -12,7 +12,7 @@ const FeatureCard = ({ title, description, image }) => {
   return (
     <div className="max-w-4xl w-full p-10 bg-feature rounded-lg mt-10">
       <div className="flex justify-between items-center cursor-pointer" onClick={toggleExpand}>
-        <h2 className="text-3xl font-bold text-secondary text-center flex-1">{title}</h2>
+        <h2 className="text-2xl font-bold text-secondary text-center flex-1">{title}</h2>
         <span
           className={`transform transition-transform duration-300 ${
             isExpanded ? "rotate-180" : "rotate-0"
@@ -35,4 +35,4 @@ const FeatureCard = ({ title, description, image }) => {
   );
 };
 
-export default FeatureCard;
+export default QuestionsCard;
