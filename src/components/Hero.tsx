@@ -1,6 +1,7 @@
 import QuestionsCard from "./QuestionsCard";
 import { qna } from "../constants/qna";
 import AppleStore from "../assets/AppleStore.svg";
+// import GooglePlayStore from "../assets/GooglePlayStore.svg";
 
 const Hero = () => {
     return (
@@ -13,9 +14,9 @@ const Hero = () => {
                     <a href="target:blank" className="cursor-pointer mr-10">
                         <img src={AppleStore} alt="Apple Store" style={{ ...styles.img }} />
                     </a>
-                    <a href="target:blank">
-                        <img src={AppleStore} alt="Apple Store" style={{ ...styles.img }} />
-                    </a>
+                    {/* <a href="target:blank">
+                        <img src={GooglePlayStore} alt="Google Play Store" style={{ ...styles.img }} />
+                    </a> */}
                 </div>
             </div>
             <div className="flex flex-col items-center mt-20">
