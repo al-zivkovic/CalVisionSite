@@ -9,19 +9,19 @@ const Footer = () => {
 
         {/* Links */}
         <div className="flex flex-wrap justify-center space-x-6 mb-4">
-          <a href="/privacy-policy" className="text-gray-400 hover:text-tertiary transition">
+          <a href="/privacy-policy" className="text-sm text-gray-400 hover:text-tertiary transition">
             Privacy Policy
           </a>
-          <a href="/terms-of-service" className="text-gray-400 hover:text-tertiary transition">
+          <a href="/terms-of-service" className="text-sm text-gray-400 hover:text-tertiary transition">
             Terms of Service
           </a>
-          <a href="mailto:help@calvision.ai" className="text-gray-400 hover:text-tertiary transition">
+          <a href="mailto:help@calvision.ai" className="text-sm text-gray-400 hover:text-tertiary transition">
             Contact Us
           </a>
         </div>
 
         {/* Copyright */}
-        <div className="text-sm text-gray-500">
+        <div className="text-xs text-gray-500">
           Copyright © {new Date().getFullYear()} zkkva. All rights reserved.
         </div>
       </div>
