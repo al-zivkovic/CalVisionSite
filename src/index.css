@@ -9,3 +9,42 @@ html, body {
   margin: 0;
   font-family: 'ParkinSans', sans-serif;
 }
+
+/* Background Pattern */
+.background-pattern {
+  background-image: url('/path/to/hexagon-pattern.svg');
+  background-size: 150px 150px;
+  background-repeat: repeat;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+/* Scan Grid */
+.scan-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1px;
+}
+
+.scan-grid div {
+  border: 2px dashed rgba(34, 211, 238, 0.7);
+  border-radius: 4px;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+}
+

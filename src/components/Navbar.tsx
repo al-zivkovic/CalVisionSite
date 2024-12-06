@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`sticky top-0 w-full p-8 flex justify-between items-center z-50 transition duration-200 ${
+      className={`sticky top-0 w-full items-center justify-between p-8 flex z-50 transition duration-200 ${
         scrolled ? "bg-primary" : "bg-primary"
       }`}
     >
