@@ -1,6 +1,8 @@
 import QuestionsCard from "./QuestionsCard";
 import Features from "./Features";
+
 import { qna } from "../constants/qna";
+
 import AppleStoreBadgeBlack from "../assets/AppleStoreBadgeBlack.svg";
 import phone from "../assets/phone.png";
 
@@ -22,8 +24,7 @@ const Hero = () => {
               <img
                 src={AppleStoreBadgeBlack}
                 alt="Apple Store"
-                style={{ width: "180px" }}
-                className="cursor-pointer"
+                className="cursor-pointer w-[180px] hover:scale-105 transition-transform"
               />
             </a>
           </div>
