@@ -3,14 +3,12 @@ import { useState } from "react";
 import phone from "../assets/phone.png";
 
 const Features = () => {
-    const [ isActive, setIsActive ] = useState(false)
-
-    
+    const [isActiveFeature, setIsActiveFeature] = useState(0);
 
   return (
     <section className="w-full bg-primary py-16 px-8">
       {/* Title Section */}
-      <div className="text-center mb-12">
+      <div className="lg:text-center mb-12">
         <h1 className="text-4xl font-bold text-secondary">Discover the Features of CalVision</h1>
         <p className="text-md text-gray-400 mt-4">
           Explore how CalVision helps you achieve your fitness goals with ease and precision.
@@ -22,7 +20,7 @@ const Features = () => {
         {/* Left Side: Image */}
         <div className="w-full lg:w-1/2 flex justify-center">
           <img
-            src={phone}
+            src={phone} 
             alt="CalVision app preview"
             className="w-full max-w-sm rounded-lg shadow-lg"
           />

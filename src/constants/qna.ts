@@ -1,7 +1,7 @@
 export const qna = {
     q1: {
-        question: "How does CalVision work?",
-        answer: "CalVision simplifies calorie tracking with cutting-edge AI. Just snap a photo of your meal, and our app with instantly analyze the image to calculate the calories and macros. Whether you're looking to lose weight, gain muscle, or maintain, CalVision helps you stay on track effortlessly",
+        question: "Why should I use CalVision?",
+        answer: "CalVision simplifies calorie tracking with cutting-edge AI. Just snap a photo of your meal, and our app with instantly analyze the image to calculate the calories and macros. Whether you're looking to lose weight, gain muscle, or maintain, CalVision helps you stay on track effortlessly.",
     },
     q2: {
         question: "Is the camera tracking accurate?",

@@ -12,7 +12,7 @@ const Hero = () => {
         {/* Left: Text Content */}
         <div className="lg:w-1/2 text-left">
           <h1 className="text-5xl text-secondary font-extrabold leading-tight">
-            AI That Understands Your Meals
+            The App That Understands Your Food
           </h1>
           <p className="text-md text-secondary font-medium mt-5">
             Simply snap a photo of your meals, and let CalVision's advanced AI handle the rest. Get instant calorie and macronutrient breakdowns with 90% accuracy.
@@ -38,7 +38,7 @@ const Hero = () => {
               className="w-[400px] shadow-lg rounded-xl"
             />
             {/* Glowing Scan Grid */}
-            <div className="absolute inset-0 rounded-xl border-4 border-dashed border-tertiary animate-pulse opacity-75"></div>
+            <div className="absolute inset-0 rounded-3xl border-4 border-dashed border-tertiary animate-pulse opacity-75"></div>
           </div>
 
           {/* AI Analyzing Animation */}
@@ -57,7 +57,7 @@ const Hero = () => {
       </div>
 
       {/* Features Section */}
-      <div className="mt-20">
+      <div className="mt-20 lg:mt-0">
         <Features />
       </div>
 
